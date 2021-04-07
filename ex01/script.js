@@ -1,0 +1,10 @@
+var num1 = window.prompt('Digite um numero');
+var num2 = window.prompt('Digite outro numero');
+var res1 = parseInt(num1) + parseInt(num2);
+var res2 = parseInt(num1) - parseInt(num2);
+var res3 = parseInt(num1) * parseInt(num2);
+var res4 = parseInt(num1) / parseInt(num2);
+window.alert("Soma = " + res1 + "\n"+
+            "Subtração = " + res2 + "\n"+
+            "Multiplicação = " + res3 + "\n"+
+            "Divisão = " + res4);
